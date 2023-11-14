@@ -23,7 +23,7 @@ Widget itemFood(FoodModel food, FoodController controller,int index) {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(food.foodName ?? "",
-                  style: textMedium16, textAlign: TextAlign.center),
+                  style: textMedium14, textAlign: TextAlign.center),
               const SizedBox(
                 height: 8,
               ),
@@ -75,7 +75,7 @@ Widget itemFood(FoodModel food, FoodController controller,int index) {
                           ),
                           Text(
                             food.count.toString(),
-                            style: textRegular14,
+                            style: textRegularWrite14,
                           ),
                         ],
                       ),
